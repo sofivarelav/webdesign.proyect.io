@@ -1,0 +1,219 @@
+
+body {
+   background: linear-gradient(204deg,#ef6b6a,#f47941,#cb69a9,#7ac251,#E0A529,#F68F2A);
+  background-size: 240% 240%;
+  animation: gradient-animation 10s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <lighter>;
+  font-style: normal;
+}
+
+h1{
+	font-family: "Bright DEMO",serif;
+	font-size: 3vw;
+}
+p{
+	font-family: "Nunito", sans-serif;
+	color: white;
+}
+main{
+	font-family: "Bright DEMO", serif;
+	font-size: 5vw;
+	color: white;
+	line-height: 10vh;
+}
+des-title{
+	font-family: "Bright DEMO", serif;
+	font-size: 5vw;
+	color: white;
+	line-height: 10vh;
+}
+.logo-image{
+	width: 10vw;
+	padding-top:.5vw;
+}
+.welcome-text{
+	margin-top: 4vw;
+}
+
+.box-menu{
+	margin-top: 2vh;
+}
+
+.box-menu li{
+	display: inline;
+	margin: 10px;
+}
+
+.box-menu li a{
+	color: white;
+}
+
+.title1{
+	text-align: center;
+}
+
+.box-img1{
+	text-align: center;
+	margin: 0vw;
+	padding-bottom: 2vw;
+}
+
+.menu-bebidas{
+	background-color: white;
+	margin:0vw;
+	border-radius: 50px;
+
+}
+
+.menu-title{
+	padding-top: 2vw;
+	margin-top: 1vw;
+}
+
+.title1{
+	margin-top: 2vh;
+}
+
+.menu-img1{
+	padding: 3vw;
+}
+
+.nuestrahistoria{
+	margin: 7vh 5vh 5vh 5vh;
+}
+.nuestrahistoria-title{
+	font-family: "Bright DEMO", serif;
+	color: white;
+	font-size: 3vw;
+}
+
+.box-sabiasque{
+	background-color: rgba(255,255,255,.25);
+	margin: 3vw;
+	padding: 5vw;
+	border-radius: 50px;
+}
+.sq{
+	text-align: center;
+	font-family: "Nunito", sans-serif;
+	color: white;	
+}
+.pulpos{
+	text-align: center;
+	color: white;
+	font-family: "Bright DEMO", serif;
+	font-size: 5vw;
+}
+.boton-pulpos{
+	text-align: center;
+}
+.nav-item mb-2{
+	color: white;
+}
+
+/*PRODUCT PAGE*/
+
+.box1{
+	grid-area: header;
+	padding-right: 3vw;
+	text-align: center;
+}
+.box2{
+	grid-area: main;
+	padding-right: 7vw;
+	text-align: center;
+}
+
+.box3{ 
+	grid-area: title;
+
+ }
+.box4{
+ 	grid-area: subtitle;
+ 	padding-left: 4vw;
+ 	text-align: center;
+ }
+.box5{
+ 	grid-area: rec;
+ 	padding-right: 7vw;
+ }
+.box6{
+	grid-area: gallerymenu;
+	text-align: center;
+}
+.box7{
+	grid-area: foto;
+}
+.box8{
+	grid-area: historia;
+}
+.box9{
+	grid-area: fun;
+}
+.box10{
+	grid-area: footeriz;
+}
+.box11{
+	grid-area: footerder;
+}
+.container-2{
+	display: grid;
+	grid-template-areas: 'header header main main'
+						'title title main main'
+						'subtitle subtitle main main'
+						'subtitle subtitle rec rec'
+						'gallerymenu gallerymenu gallerymenu gallerymenu';
+ 	grid-gap:10px;
+ 	padding: 10px;
+ 	padding-left: 6vw;
+}
+
+.container-3{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+ 	grid-gap:10px;
+ 	padding: 10px;
+ 	background-color: white;
+}
+
+.img-product{
+	width: 25vw;
+}
+
+ul {
+	list-style-type: none;
+}
+.icon{
+	width: 5vw;
+}
+.overview-item{
+	padding: 2vh;
+}
+.combines-with{
+	display: inline;
+}
+a {
+	text-decoration: none;
+}
+.box-img-product{
+	width: 3vw;
+}
+
+
+
